@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+.navebar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.nev-logo{
+    height:50 px;
+    width: 120px;
+}
+.logo{
+    background-image:url("image.png");
+    background-size: cover;
+    height:50px ;
+    width: 120px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/* box 2 */
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.add second{
+   font-size: 1rem;
+   margin-left:3px ;
+
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+
+
+
+/*css of box 3 */
+.nev-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:pink;
+    width: 620px;
+    height: 40px;
+    border-radius:4px;
+}
+.search-select{
+   background-color: aliceblue;
+    width: 50px;
+   text-align: center;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border: none;
+}
+.search-input{
+    width: 1000px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icone{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+   background-color: orange;
+    border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   color:#0f1111;
+
+.nev-search:hover{
+    border:2px solid orange
+   }
+/*css of box 4*/
+}
+.span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: o.85;
+    font-weight: 700;
+}
+
+/*css of box 6*/
+.nav-card i{
+    font: size 500;
+}
+.nav-card{
+    font-size:1.25rem;
+    font-weight: 700;
+}
+
+/* css of second header (pannel)*/
+
+.panel{
+    height: 40px;
+    background-color: #222f32;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left:15px;
+   
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/*this is css of content parts */
+.hero-section{
+    background-image: url("1amazone-image.jpg");
+    background-size: cover;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-msg{
+background-color: white;
+color:black;
+height:40px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:0.85rem;
+width: 80%;
+margin-bottom: 25px;
+
+}
+
+.hero-msg a {
+    color:green;
+
+}
+
+/*this is css of content parts (2)shop-section*/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #cccccc;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color:whitesmoke;
+    padding: 2px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+height: 300px;
+background-size:cover;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+.box-content{
+    margin: left 10px;
+    margin-right: 10px;
+}
+
+.box-content p {
+    color:green;
+}
+
+/* this is footer parts of css*/
+
+.foot-pen1{
+    background-color: #374753;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-top: 15px;
+
+}
+
+.foot-pena2{
+    background-color:#222f39;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ ul{
+    margin-top: 35px;
+ }
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+.foot-penal3{
+    background-color: #222f39;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.logo{
+
+ background-image:url("image.png");
+    background-size: cover;
+    height:50px ;
+    width: 120px;
+
+}
+
+.foot-penal4{
+    background-color:black;
+    color: white;
+    height: 100px;
+    font-size: 0.7rem;
+   text-align: center;
+   
+
+}
+.pagase{
+    padding-top: 25px;
+}
+
+.copy-right{
+  padding-top: 5px;
+}
